@@ -3,7 +3,7 @@ class Person
   include Mongoid::Timestamps
 
   field :name, type: String
-  field :role, type: String, default: 'assistant'
+  field :role, type: String, default: 'attendant'
   field :email, type: String
   field :gender, type: String
   field :register_date, type: String

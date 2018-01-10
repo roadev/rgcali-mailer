@@ -2,7 +2,7 @@ class ContactForm
   include ActiveAttr::Model
   include ActiveAttr::TypecastedAttributes
 
-  attribute :role, default: 'attendees'
+  attribute :role, default: 'attendant'
   attribute :message
   attribute :subject
   attribute :gender
